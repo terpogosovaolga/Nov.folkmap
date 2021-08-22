@@ -253,7 +253,7 @@ var user_geo;
 
       if (long > lat) {
         game_results(long);
-      } else gama_results(lat);
+      } else game_results(lat);
 
     }
 

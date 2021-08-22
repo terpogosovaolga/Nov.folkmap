@@ -136,7 +136,9 @@ a{
     width: 500px;
     position: relative;
     z-index: 1;
-    right: -22px;
+    right: -100px;
+    top: -70px;
+
 }
 
 
@@ -173,7 +175,7 @@ a{
 
 .layer-bg-5 {
 	background-image: url("../imgs/legend/fon_chuch.png");
-  background-size: 800px 600px;
+  background-size: 600px 400px;
     height: 800px;
     width: 600px;
 
