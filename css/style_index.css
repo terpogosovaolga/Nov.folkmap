@@ -1,0 +1,152 @@
+body {
+			--color-pink: #CE0040;
+			--color-blue: #10689A;
+			--color-light-blue: #B2E3FC;
+			--color-gray: #ADB5B9;
+			--color-text: #272727;
+			--color-light-text: #FFFFFF;
+			font-family: 'Comfortaa', cursive;
+		}
+
+
+
+#index-title {
+    background: url(../imgs/index-title.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    width: 100%;
+
+}
+
+#index-title > div {
+	position: absolute;
+}
+
+/*#index-title > div > div {position: relative;}*/
+
+#index-title > div > div {
+	display: flex;
+	justify-content: center;
+}
+
+
+#index-title img {
+	height: 17rem;
+}
+#index-title #logotip {
+	top: 3rem;
+	max-height: 10rem;
+	width: 100%;
+
+ }
+
+ #index-title #logotip > div {display: flex; justify-content: center;}
+
+ #invication img {
+ 	height: 12rem !important;
+ }
+
+ #index-title #invication {
+	top: 8rem;
+	max-height: 10rem;
+	width: 100%;
+
+ }
+
+ #invication > div > div {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	width: 70%
+ }
+ #invication > div > div > div {display: flex; justify-content: center;}
+ #invication > div > div > div > div {
+ 	position: absolute;
+ 	top: 3.5rem;
+ 	text-align: center;
+ 	font-weight: 600;
+ 	color: var(--color-blue);
+ }
+
+
+ #index-title #points {
+	top: 21rem;
+	max-height: 10rem;
+	width: 100%;
+
+ }
+
+ #points > div > div {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	width: 70%
+ }
+
+.point {
+	width: 164px;
+	display: flex;
+	justify-content: center;
+}
+
+.point > div{
+	width: 1rem;
+	height: 1rem;
+	background: var(--color-pink);
+	border-radius: 50%;
+
+}
+
+
+
+
+ #index-title #line {
+	top: 21.5rem;
+	max-height: 1rem;
+	width: 100%;
+ }
+
+#line > div {display: flex;
+ 	justify-content: center; }
+ #line > div > div {
+
+ 	width: calc(70% - 164px);
+ 	height: .25rem;
+	background: var(--color-pink)
+ }
+
+/*#line .line {
+	height: .25rem;
+	background: var(--color-pink)
+}*/
+
+#index-title #title {
+	top: 24rem;
+	width: 100%;
+ }
+
+#index-title #title > div {display: flex; justify-content: center;}
+
+#index-title #title > div > div {
+	font-weight: 800;
+	font-size: 3rem;
+	background:  linear-gradient(to top, #CE0040  50%, #ADB5B9 50%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+#index-title #onmap {
+	top: 32rem;
+	width: 100%;
+ }
+
+#index-title #onmap > div {display: flex; justify-content: center;}
+
+#onmap .onmap {
+	background: #b2e3fcad;
+	padding: 1rem 5rem;
+	color: var(--color-blue);
+	text-decoration: none;
+	font-weight: 600
+}
